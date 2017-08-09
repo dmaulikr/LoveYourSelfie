@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  LoveYourSelfie
+
+  Created by Francesco Galasso on 29/03/16.
+  Copyright © 2016 Francesco Galasso. All rights reserved.
+*/
+
+/*
+ 
+ TITLES
+ 
+ */
+"tut1_title" = "SCATTA IL TUO SELFIE";
+"tut2_title" = "AMA IL TUO SELFIE";
+"tut3_title" = "CONDIVIDI IL TUO SELFIE";
+
+/*
+ 
+ DESCRIPTIONS
+ 
+ */
+"tut1_description" = "Scatta un Selfie!";
+"tut2_description" = "Scegli il tuo Selfie preferito!";
+"tut3_description" = "Condividilo con gli Amici!";
+
+/*
+ 
+ GENERAL LABELS
+ 
+ */
+"btn_text" = "Inziamo";
+"details" = "Dettagli >";
+"btn_back" = "Indietro";
+"alert_error" = "Si è verificato un errore in fase di condivisione. Riprova.";
+"error_auth" = "Non hai autorizzato LoveYourSelfie. Per poter utilizzare l'app devi autorizzare il login di FaceBook.";
+"alert_close" = "Chiudi";
+"alert_share_success" = "La condivisione è andata a buon fine.";
+"alert_conn" = "Nessuna connessione internet rilevata. Attiva la connettività per utilizzare a pieno le funzionalità di LoveYourSelfie.";
+"fb_login" = "Login con Facebook";
+"elaborate_lbl" = "Dr Jeckyll o Mr Hyde? Tappa sulla foto che preferisci per proseguire.";
+"share_lbl" = "Condividi con i tuoi amici, mostra a tutti il tuo \"Dr Jeckyll\" e \"Mr Hyde\"!";
+"share_btn" = "Condividi";
+"elaborate_btn" = "Avanti";
+"alert_login_server_error" = "Siamo spiacenti. Servizio non disponibile. :(";
+
+
+"secondi_passati" = " secondi fa";
+"minuti_passati" = " minuti fa";
+"ore_passate" = " ore fa";
+"giorni_passati" = " giorni fa";
+"settimane_passati" = " settimane fa";
+"mesi_passati" = " mesi fa";
+"anni_passati" = " anni fa";
+"secondo_passato" = " secondo fa";
+"minuto_passato" = " minuto fa";
+"ora_passata" = " ora fa";
+"giorno_passato" = " giorno fa";
+"settimana_passata" = " settimana fa";
+"mese_passato" = " mese fa";
+"anno_passato" = " anno fa";

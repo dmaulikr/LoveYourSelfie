@@ -1,0 +1,23 @@
+xcodeproj '../LoveYourSelfie.xcodeproj/'
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'LoveYourSelfie' do
+
+end
+
+#pod 'ShareKit/Facebook’, '~> 3.0.2’
+#pod 'ShareKit/Twitter’, '~> 3.0.2’
+#pod 'ShareKit/Instagram’, '~> 3.0.2’
+
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
+
+pod 'SDWebImage'
+
+pod 'Google-Mobile-Ads-SDK'

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Settings" customModule="LoveYourSelfie" customModuleProvider="target">
+            <connections>
+                <outlet property="background" destination="N97-IN-JoX" id="P1U-MF-gG2"/>
+                <outlet property="btnLogout" destination="KS4-00-q5U" id="v0g-DY-Tad"/>
+                <outlet property="btnTutorial" destination="cle-Mm-rwR" id="YEq-iE-qHh"/>
+                <outlet property="closeButton" destination="2aJ-NY-peN" id="lIz-Qz-h9A"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Mfi-EP-sLT"/>
+                <outlet property="viewBottom" destination="64a-oT-LUG" id="4Al-ob-kar"/>
+                <outlet property="viewTop" destination="HDS-Ac-zIj" id="TJX-kx-ch8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="274"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N97-IN-JoX">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="274"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HDS-Ac-zIj">
+                            <rect key="frame" x="0.0" y="0.0" width="270" height="49"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aJ-NY-peN">
+                                    <rect key="frame" x="235" y="12" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="qIC-eE-0di"/>
+                                        <constraint firstAttribute="width" constant="25" id="rSj-ek-6ft"/>
+                                    </constraints>
+                                    <state key="normal" image="close"/>
+                                    <connections>
+                                        <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="2g5-pf-ss8"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="2aJ-NY-peN" secondAttribute="trailing" constant="10" id="MPQ-qY-2we"/>
+                                <constraint firstItem="2aJ-NY-peN" firstAttribute="top" secondItem="HDS-Ac-zIj" secondAttribute="top" constant="12" id="ugk-up-Ovu"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64a-oT-LUG">
+                            <rect key="frame" x="8" y="49" width="254" height="217"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cle-Mm-rwR">
+                                    <rect key="frame" x="74" y="45" width="107" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="107" id="vTm-4C-KdO"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="Tutorial"/>
+                                    <connections>
+                                        <action selector="actionTutorial:" destination="-1" eventType="touchUpInside" id="zbj-Dc-fxf"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KS4-00-q5U">
+                                    <rect key="frame" x="74" y="140" width="107" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="107" id="xwQ-Rw-7i4"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="Logout"/>
+                                    <connections>
+                                        <action selector="actionLogout:" destination="-1" eventType="touchUpInside" id="KaV-am-VHe"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="KS4-00-q5U" secondAttribute="bottom" constant="45" id="2l8-Bv-jYP"/>
+                                <constraint firstItem="cle-Mm-rwR" firstAttribute="centerX" secondItem="64a-oT-LUG" secondAttribute="centerX" id="Id2-yN-0Va"/>
+                                <constraint firstItem="KS4-00-q5U" firstAttribute="centerX" secondItem="64a-oT-LUG" secondAttribute="centerX" id="Rqx-z3-16i"/>
+                                <constraint firstItem="cle-Mm-rwR" firstAttribute="top" secondItem="64a-oT-LUG" secondAttribute="top" constant="45" id="TZT-Iw-s35"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="HDS-Ac-zIj" firstAttribute="leading" secondItem="N97-IN-JoX" secondAttribute="leading" id="2dD-qm-9We"/>
+                        <constraint firstItem="64a-oT-LUG" firstAttribute="leading" secondItem="N97-IN-JoX" secondAttribute="leading" constant="8" id="FOi-T2-dap"/>
+                        <constraint firstItem="64a-oT-LUG" firstAttribute="top" secondItem="N97-IN-JoX" secondAttribute="top" constant="49" id="GsA-in-f56"/>
+                        <constraint firstAttribute="trailing" secondItem="HDS-Ac-zIj" secondAttribute="trailing" id="HAt-Kl-mms"/>
+                        <constraint firstItem="64a-oT-LUG" firstAttribute="top" secondItem="HDS-Ac-zIj" secondAttribute="bottom" id="Jio-wl-RhV"/>
+                        <constraint firstAttribute="trailing" secondItem="64a-oT-LUG" secondAttribute="trailing" constant="8" id="bul-sf-EVO"/>
+                        <constraint firstItem="HDS-Ac-zIj" firstAttribute="top" secondItem="N97-IN-JoX" secondAttribute="top" id="nfz-cV-Yf7"/>
+                        <constraint firstAttribute="bottom" secondItem="64a-oT-LUG" secondAttribute="bottom" constant="8" id="qFe-52-qnL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="N97-IN-JoX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MHp-zW-t0Q"/>
+                <constraint firstAttribute="bottom" secondItem="N97-IN-JoX" secondAttribute="bottom" id="YTM-YS-vug"/>
+                <constraint firstAttribute="trailing" secondItem="N97-IN-JoX" secondAttribute="trailing" id="fmz-zj-ZI0"/>
+                <constraint firstItem="N97-IN-JoX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vpY-ga-WNU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="22" y="65"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,33 @@
+
+/* Class = "UIViewController"; title = "SplashScreen"; ObjectID = "5Ec-Am-4IY"; */
+"5Ec-Am-4IY.title" = "SplashScreen";
+
+/* Class = "UIButton"; normalTitle = "Avanti"; ObjectID = "5dB-ft-0Nx"; */
+"5dB-ft-0Nx.normalTitle" = "Avanti";
+
+/* Class = "UILabel"; text = "Condividi con i tuoi amici, mostra a tutti il tuo \"Dr Jeckyll\" e \"Mr Hyde\"!"; ObjectID = "6Ui-LM-SMZ"; */
+"6Ui-LM-SMZ.text" = "Condividi con i tuoi amici, mostra a tutti il tuo \"Dr Jeckyll\" e \"Mr Hyde\"!";
+
+/* Class = "UIButton"; normalTitle = "Prosegui"; ObjectID = "7FM-1J-xn6"; */
+"7FM-1J-xn6.normalTitle" = "Prosegui";
+
+/* Class = "UILabel"; text = "LOVE YOUR SELFIE"; ObjectID = "K6P-9o-beB"; */
+"K6P-9o-beB.text" = "LOVE YOUR SELFIE";
+
+/* Class = "UILabel"; text = "Nome Utente"; ObjectID = "Lsi-Uy-wQg"; */
+"Lsi-Uy-wQg.text" = "Nome Utente";
+
+/* Class = "UIViewController"; title = "Camera View Controller"; ObjectID = "Mxj-EH-pk4"; */
+"Mxj-EH-pk4.title" = "Camera View Controller";
+
+/* Class = "UIButton"; normalTitle = "Login con Facebook"; ObjectID = "gZH-fg-DUG"; */
+"gZH-fg-DUG.normalTitle" = "Login con Facebook";
+
+/* Class = "UIButton"; normalTitle = "Iniziamo"; ObjectID = "hul-OR-dI0"; */
+"hul-OR-dI0.normalTitle" = "Iniziamo";
+
+/* Class = "UILabel"; text = "Dr Jeckyll o Mr Hyde? Tappa sulla foto che preferisci per proseguire."; ObjectID = "pmR-OU-iLr"; */
+"pmR-OU-iLr.text" = "Dr Jeckyll o Mr Hyde? Tappa sulla foto che preferisci per proseguire.";
+
+/* Class = "UILabel"; text = "label description"; ObjectID = "vVt-3w-BV1"; */
+"vVt-3w-BV1.text" = "label description";

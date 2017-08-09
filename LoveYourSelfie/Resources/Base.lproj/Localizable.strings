@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  LoveYourSelfie
+
+  Created by Francesco Galasso on 29/03/16.
+  Copyright © 2016 Francesco Galasso. All rights reserved.
+*/
+
+/*
+ 
+ TITLES
+ 
+ */
+"home_view_title" = "Love Your Selfie";
+"camera_view_title" = "Take Your Selfie";
+"share_view_title" = "Share Your Selfie";
+
+/*
+ 
+ GENERAL LABELS
+ 
+ */
+"close_label" = "close";
+"settings_label" = "settings";
+
+"secondi_passati" = " secondi fa";
+"minuti_passati" = " minuti fa";
+"ore_passate" = " ore fa";
+"giorni_passati" = " giorni fa";
+"settimane_passati" = " settimane fa";
+"mesi_passati" = " mesi fa";
+"anni_passati" = " anni fa";
